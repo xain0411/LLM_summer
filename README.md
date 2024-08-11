@@ -5,7 +5,7 @@
 
 
 ## 資料夾概述
-1. combine_project 為整合csv跟繪圖功能的chatbot
+1. combine_project 為整合csv跟繪圖功能的chatbot(主要的成果展示)
 2. my_test 為自己的測試
 3. reference_project 為學長提供的相關參考資料
 4. streamlit_project 為原始 LLM chatbot 串接 streamlit 製成簡易 user application
