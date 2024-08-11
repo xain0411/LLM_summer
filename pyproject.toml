@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "wtf-langchain-practice"
+version = "0.1.0"
+description = ""
+authors = ["Rashi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+langchain = "^0.2.0"
+langgraph = "^0.0.53"
+langchain-openai = "^0.1.1"
+pandas = "^2.2.1"
+chromadb = "^0.4.24"
+grandalf = "^0.8"
+faiss-cpu = "^1.8.0"
+langchain-anthropic = "^0.1.8"
+pymupdf = "^1.24.2"
+langchain-experimental = "^0.0.59"
+langchainhub = "^0.1.15"
+pymongo = "^4.6.3"
+opencv-python = "^4.9.0.80"
+streamlit = "^1.33.0"
+duckduckgo-search = "^5.3.0"
+docarray = "^0.40.0"
+pypdf = "^4.2.0"
+sentence-transformers = "^2.7.0"
+youtube-transcript-api = "^0.6.2"
+pytube = "^15.0.0"
+cohere = "^5.3.4"
+redis = "^5.0.4"
+wikipedia = "^1.4.0"
+langchain-chroma = "^0.1.1"
+numexpr = "^2.10.0"
+aiosqlite = "^0.20.0"
+langchain-cli = "^0.0.25"
+matplotlib = "^3.9.1"
+vega-datasets = "^0.9.0"
+plotly = "^5.22.0"
+file-chat-input = "^0.0.2"
+openpyxl = "^3.1.5"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
